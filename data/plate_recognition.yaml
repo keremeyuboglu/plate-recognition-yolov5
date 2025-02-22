@@ -1,0 +1,9 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: C:\Users\kerem\Desktop\yolov5\Plate_Recognition_Dataset\images\train
+val:  C:\Users\kerem\Desktop\yolov5\Plate_Recognition_Dataset\images\validation
+
+# number of classes
+nc: 2
+
+# class names
+names: ["car","plate"]
